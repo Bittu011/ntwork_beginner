@@ -16,7 +16,7 @@ Hi there! I’m **Ntwork Beginner**, a passionate Network Engineer architecting 
 
 ---
 
-<summary>🔧 <strong>Professional Experience & Skills</strong></summary>
+## Professional Experience & Skills
 
 ### 📜 Certifications
 - Cisco Certified Network Associate (CCNA) – <em>Pursuing</em>
@@ -39,14 +39,11 @@ Coming Soon...
 
 ---
 
-<details>
-<summary>📚 <b>Continuous Learning & Innovations</b></summary>
+## Continuous Learning & Innovations
 
 - Cloud networking certifications (AWS, Azure) in progress
 - Building network labs with virtual routers/switches
 - knowledge sharing
-
-</details>
 
 ---
 
