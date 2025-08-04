@@ -16,7 +16,6 @@ Hi there! I’m **Ntwork Beginner**, a passionate Network Engineer architecting 
 
 ---
 
-<details>
 <summary>🔧 <strong>Professional Experience & Skills</strong></summary>
 
 ### 📜 Certifications
@@ -31,9 +30,6 @@ Hi there! I’m **Ntwork Beginner**, a passionate Network Engineer architecting 
 ### 🤝 Soft Skills
 - Analytical Problem-Solving  
 - Communication Across Technical & Non-Technical Teams  
-- Incident Response & Crisis Management
-
-</details>
 
 ---
 
