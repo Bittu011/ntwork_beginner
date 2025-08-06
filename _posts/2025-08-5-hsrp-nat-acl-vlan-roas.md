@@ -12,7 +12,14 @@ tags: [hsrp, vlan, security, cisco, cml, nat, dhcp, acl, etherchannel, inter-vla
 Curious what the lab looks like?  
 **Check out the full network topology diagram here:**
 
-![Network Diagram](/_posts/Images/NAT-HSRP-VLANS-ROAS-ACL.png)
+<!-- Embed full YouTube video -->
+<iframe width="100%" height="400"
+  src="https://youtu.be/sIpxjIj7xF4"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
 
 As someone just starting out in the networking field, I'm excited to share that I've completed one of my most advanced hands-on labs using Cisco CML — and it’s working exactly as intended! 👏 This project demonstrates real-world skills with HSRP, VLANs, EtherChannel, NAT, ACLs, and more.
 
