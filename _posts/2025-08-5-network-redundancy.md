@@ -7,17 +7,12 @@ tags: [hsrp, vlan, security, cisco, cml, nat, dhcp, acl, etherchannel, inter-vla
 
 # 🚀 Network Redundancy + VLAN Security Lab
 
-<div style="text-align: center; margin: 15px 0;">
-  <a href="https://www.youtube.com/channel/your-channel" target="_blank" style="margin: 0 10px;">
-    <img src="https://cdn-icons-png.flaticon.com/48/1384/1384060.png" alt="YouTube" width="32" height="32" style="vertical-align: middle;">
-  </a>
-  <a href="https://www.linkedin.com/in/your-profile" target="_blank" style="margin: 0 10px;">
-    <img src="https://cdn-icons-png.flaticon.com/48/174/174857.png" alt="LinkedIn" width="32" height="32" style="vertical-align: middle;">
-  </a>
-  <a href="https://github.com/your-github" target="_blank" style="margin: 0 10px;">
-    <img src="https://cdn-icons-png.flaticon.com/48/733/733553.png" alt="GitHub" width="32" height="32" style="vertical-align: middle;">
-  </a>
-</div>
+## 🖼️ See the Network Design
+
+Curious what the lab looks like?  
+**Check out the full network topology diagram here:**
+
+[![Network Diagram](https://raw.githubusercontent.com/Ntwork-Beginner/cisco_cml_labs/main/HSRP-NAT-Etherchannel-VRF/NetworkDiagram.png)](https://github.com/Ntwork-Beginner/cisco_cml_labs/blob/main/HSRP-NAT-Etherchannel-VRF/NetworkDiagram.png)
 
 As someone just starting out in the networking field, I'm excited to share that I've completed one of my most advanced hands-on labs using Cisco CML — and it’s working exactly as intended! 👏 This project demonstrates real-world skills with HSRP, VLANs, EtherChannel, NAT, ACLs, and more.
 
