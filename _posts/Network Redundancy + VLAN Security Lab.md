@@ -14,7 +14,7 @@ Curious what the lab looks like?
 
 <!-- Embed full YouTube video -->
 <iframe width="100%" height="400"
-  src="https://youtu.be/sIpxjIj7xF4"
+  src="https://www.youtube.com/embed/1EpiwFsyL5c"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
