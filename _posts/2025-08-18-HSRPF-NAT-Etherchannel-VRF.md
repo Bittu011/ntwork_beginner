@@ -1,6 +1,6 @@
 ---
 title: HSRPF-NAT-Etherchannel-VRF
-date: 2025-08-12 11:11:00 +0000
+date: 2025-08-18 11:11:00 +0000
 categories: [Networking_Labs]
 tags: [hsrp, nat, etherchannel, vrf, cisco, packettracer, networklab]
 ---
@@ -21,7 +21,7 @@ Let me take you behind the scenes of my latest **hands-on Cisco lab project**—
 
 <!-- Embed full YouTube video -->
 <iframe width="100%" height="400"
-  src="https://www.youtube.com/watch?v=u3q5LWiodKM"
+  src="https://www.youtube.com/embed/u3q5LWiodKM"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

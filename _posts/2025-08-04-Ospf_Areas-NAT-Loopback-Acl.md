@@ -20,7 +20,7 @@ Let’s go behind the scenes of my **hands-on Cisco OSPF lab project**—built t
 
 <!-- Embed full YouTube video -->
 <iframe width="100%" height="400"
-  src="https://youtu.be/1EpiwFsyL5c"
+  src="https://www.youtube.com/embed/1EpiwFsyL5c"
   title="YouTube video player"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
