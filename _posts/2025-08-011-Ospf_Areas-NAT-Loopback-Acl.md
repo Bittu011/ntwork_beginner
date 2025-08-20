@@ -1,5 +1,5 @@
 ---
-title: HSRPF-NAT-Etherchannel-VRF
+title: OSPF_Areas-NAT-Loopback-Acl
 date: 2025-08-11 04:00:00 +0000
 categories: [Networking_Labs]
 tags: [ospf_areas ,nat, acl, vrf, cisco, networklab]
@@ -42,7 +42,7 @@ Here’s the core design:
 
 **Visual Topology:**
 
-![Network Diagram](HSRP-NAT-Etherchannel-VRF/NetworkDiagram.png)
+![Network Diagram](/_posts/Images/NAT-HSRP-VLANS-ROAS-ACL.png))
 *(Make sure your image is at this path in your repo if you’re deploying with a static site generator or GitHub Pages!)*
 
 ---

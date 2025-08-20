@@ -23,9 +23,8 @@ My latest Cisco Modeling Labs (CML) project brings these together:
 
 Here’s a visual breakdown of the lab you’ll find in my repo:
 
-![Network Diagram](HSRP-NAT-Etherchannel-VRF/image.jpg)
+![Network Diagram](/_posts/Images/HSRP-NAT-DHCP-Automation.png)
 
-> *Place `image.jpg` in `HSRP-NAT-Etherchannel-VRF/` alongside your Markdown file.*
 
 ---
 
