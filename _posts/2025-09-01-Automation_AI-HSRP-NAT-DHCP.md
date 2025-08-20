@@ -1,5 +1,5 @@
 ---
-title: HSRPF-NAT-Etherchannel-VRF
+title: Automation_AI-HSRP-NAT-DHCP
 date: 2025-08-12 11:11:00 +0000
 categories: [Networking_Labs]
 tags: [nat, hsrp, cisco, networklab, python]
