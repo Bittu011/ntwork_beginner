@@ -23,7 +23,7 @@ My latest Cisco Modeling Labs (CML) project brings these together:
 
 Here’s a visual breakdown of the lab you’ll find in my repo:
 
-![Network Diagram](/_posts/Automation_AI-HSRP-NAT-DHCP.png)
+![Network Diagram](Automation_AI-HSRP-NAT-DHCP.png)
 
 
 ---
