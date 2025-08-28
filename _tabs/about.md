@@ -35,13 +35,16 @@ Hi there! I’m **Ntwork Beginner**, a passionate Network Engineer architecting 
 
 ## 🚀 Projects
 
-Coming Soon...
+Hands‑on networking projects covering VLAN, OSPF, NAT, ACL, DHCP, HSRP, and ROAS, with more on the way.
+
+Watch all projects here:
+https://www.youtube.com/playlist?list=PLV69O1EvJ_odgaCub_S3XIJKtfQifpNYC
 
 ---
 
 ## Continuous Learning & Innovations
 
-- Cloud networking certifications (AWS, Azure) in progress
+- Cloud networking certifications (AWS, Azure) in future
 - Building network labs with virtual routers/switches
 - knowledge sharing
 
@@ -56,7 +59,9 @@ Coming Soon...
 
 ---
 
+<!--
 > “If this page sparked your curiosity, wait till you see my BGP paths and Wireshark captures.”
+-->
 
 ---
 
