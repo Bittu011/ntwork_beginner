@@ -37,8 +37,14 @@ Hi there! I’m **Ntwork Beginner**, a passionate Network Engineer architecting 
 
 Hands‑on networking projects covering VLAN, OSPF, NAT, ACL, DHCP, HSRP, and ROAS, with more on the way.
 
-Watch all projects here:
-https://www.youtube.com/playlist?list=PLV69O1EvJ_odgaCub_S3XIJKtfQifpNYC
+<section style="padding:28px;border:1px solid #333;border-radius:12px;background:#101114;color:#eaeaea;text-align:center">
+  <h2 style="margin:0 0 6px">Networking Projects Playlist</h2>
+  <p style="margin:0 0 14px;opacity:.9">Learn VLAN, OSPF, NAT, ACL, DHCP, HSRP, and ROAS with hands‑on labs.</p>
+  <a href="https://www.youtube.com/playlist?list=PLV69O1EvJ_odgaCub_S3XIJKtfQifpNYC"
+     style="display:inline-block;padding:10px 16px;background:#ff0033;color:#fff;border-radius:8px;text-decoration:none;font-weight:600">
+     ▶ Watch the full playlist
+  </a>
+</section>
 
 ---
 
