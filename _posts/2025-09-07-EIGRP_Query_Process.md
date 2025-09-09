@@ -5,7 +5,7 @@ categories: [Networking_Topics]
 tags: [networking, eigrp, networkengineer, cisco, itlab]
 ---
 
-# 🧠 EIGRP Route Selection & Query Process – Teaching Notes
+# 🧠 EIGRP Route Selection & Query Process
 
 ---
 
