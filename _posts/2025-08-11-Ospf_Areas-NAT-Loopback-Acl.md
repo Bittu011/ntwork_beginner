@@ -81,7 +81,7 @@ Here’s the core design:
 All my configs, topologies, and diagrams are open for you!  
 **Check out the full lab repo:**
 
-[🔗 GitHub: HSRP-NAT-EtherChannel-VRF Lab by Ntwork-Beginner](https://github.com/Ntwork-Beginner/cisco_cml_labs/tree/main/HSRP-NAT-Etherchannel-VRF)
+[🔗 GitHub: HSRP-NAT-EtherChannel-VRF Lab by Ntwork-Beginner](https://github.com/Ntwork-Beginner/cisco_cml_labs/tree/main/OSPF_Areas-NAT-LOOPBACK)
 
 Download, clone, and adapt for your own CCNA or hands-on practice!
 
