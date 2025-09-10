@@ -2,7 +2,7 @@
 title: OSPF Fundamentals
 date: 2025-09-07 11:11:00 +0000
 categories: [Networking_Topics]
-tags: [networking, eigrp, networkengineer, cisco, itlab]
+tags: [networking, ospf, networkengineer, cisco, itlab]
 ---
 
 # 🌐 OSPF Fundamentals

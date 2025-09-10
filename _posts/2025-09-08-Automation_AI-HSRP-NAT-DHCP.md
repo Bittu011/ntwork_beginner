@@ -26,6 +26,8 @@ Here’s a visual breakdown of the lab you’ll find in my repo:
 - [View on GitHub](https://github.com/Ntwork-Beginner/cisco_cml_labs/blob/main/HSRP-NAT-DHCP-Automation_with_AI/Screenshot%202025-06-15%20192435.png)
 
 
+<img src="/assets/img/favicons/Automation_AI-HSRP-NAT-DHCP.png"
+
 ---
 
 ## 🔑 Key Lab Components
@@ -50,8 +52,3 @@ Here’s a visual breakdown of the lab you’ll find in my repo:
 - **DHCP/NAT/HSRP Scripts:** No typing commands by hand—tools write, validate, and push configs reliably.
 
 ---
-
-## 📝 Using and Embedding This Lab
-
-To ensure your network diagram displays on your site/blog, use:
-
