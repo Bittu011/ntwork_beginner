@@ -40,11 +40,6 @@ Here’s the core design:
 - **NAT:** For secure Internet access.
 - **Loopbacks & PCs:** For end device simulation.
 
-**Visual Topology:**
-
-![Network Diagram](/_posts/Images/NAT-HSRP-VLANS-ROAS-ACL.png))
-*(Make sure your image is at this path in your repo if you’re deploying with a static site generator or GitHub Pages!)*
-
 ---
 
 ## 🔧 What Did I Build?
@@ -79,15 +74,7 @@ Here’s the core design:
 4. **Tested end-to-end connectivity (PC to Internet)**
 5. **Verified area segmentation and failover**
 
----
 
-## 📸 See the Actual Design
-
-![Network Topology](HSRP-NAT-Etherchannel-VRF/NetworkDiagram.png)
-
-Want to see bigger details or download the file? [Click here for the raw image on GitHub!](https://github.com/Ntwork-Beginner/cisco_cml_labs/blob/main/HSRP-NAT-Etherchannel-VRF/NetworkDiagram.png)
-
----
 
 ## ⚙️ Want to Try This Lab Yourself?
 
@@ -103,7 +90,7 @@ Download, clone, and adapt for your own CCNA or hands-on practice!
 ## 🎥 Like Networking Labs? Join Me on YouTube!
 
 Love tutorials and live labs?  
-[Subscribe on YouTube for lab walkthroughs, tips, and more!](https://www.youtube.com/[YourYouTubeChannel])
+[Subscribe on YouTube for lab walkthroughs, tips, and more!](https://www.youtube.com/@ntwork_beginner)
 
 ---
 
@@ -121,5 +108,5 @@ Love tutorials and live labs?
 
 ---
 
-*Have questions or want to share your own design improvements? Comment below or raise an issue in the GitHub repo!*
+*Have questions or want to share your own design improvements? Comment on my youtube video.*
 
