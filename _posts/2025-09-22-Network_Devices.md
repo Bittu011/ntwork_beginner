@@ -182,3 +182,11 @@ NOTE A port is a physical connector on a device. Devices are physically connecte
 | 5     | Bridge                          | Connects/filter traffic between network segments | Splits collision domains, Layer 2 device          |
 | 6     | Gateway                         | Connects different networks/protocols            | LAN-to-Internet, protocol conversion              |
 | 7     | Message Delivery Types          | Data delivery forms: unicast, broadcast, multicast | 1-to-1, 1-to-all, 1-to-group transmission        |
+
+
+## 🙌 Connect With Me
+
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github)](https://github.com/Ntwork-Beginner)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ntworkbeginner/)
+[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@Ntwork_Beginner)
+[![Gmail](https://img.shields.io/badge/Gmail-Mail-red?style=for-the-badge&logo=gmail)](mailto:your.bittudhillon011@gmail.com)

@@ -115,3 +115,11 @@ EIGRP forms a neighbor adjacency before installing routes in the RIB; on receivi
 - The interfaces’ **primary IP subnets** must match; if one side uses a different primary network (even with a matching secondary), neighbors do not form.
 - The **Autonomous System Number (ASN)** for the EIGRP process/address-family must be the same on both peers.
 - **Authentication settings** (mode and keys) must match across neighbors if enabled.
+
+
+## 🙌 Connect With Me
+
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github)](https://github.com/Ntwork-Beginner)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ntworkbeginner/)
+[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@Ntwork_Beginner)
+[![Gmail](https://img.shields.io/badge/Gmail-Mail-red?style=for-the-badge&logo=gmail)](mailto:your.bittudhillon011@gmail.com)
