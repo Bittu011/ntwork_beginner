@@ -7,7 +7,6 @@ tags: [subnetting, networking, ccna, ccnp]
 
 # 🏛️ The Rise and Fall of Classful Addressing — A Legacy of the Internet
 
-> **Category**: Creative / Educational / History of Tech
 
 ## 🧠 The Birth of Classful Addressing: Internet’s Early Blueprint
 
