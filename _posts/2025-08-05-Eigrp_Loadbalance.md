@@ -1,6 +1,6 @@
 ---
 title: EIGRP LoadBalancing
-date: 2025-10-20 11:11:00 +0000
+date: 2025-08-05 11:11:00 +0000
 categories: [Networking_Topics]
 tags: [networking, eigrp, networkengineer, cisco, itlab]
 ---

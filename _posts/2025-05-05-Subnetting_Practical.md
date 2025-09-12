@@ -1,6 +1,6 @@
 ---
 title: Subnetting Practical
-date: 2025-09-07 07:00:00 +0000
+date: 2025-05-06 07:00:00 +0000
 categories: [Networking_Practical]
 tags: [subnetting, networking, ccna, ccnp]
 ---

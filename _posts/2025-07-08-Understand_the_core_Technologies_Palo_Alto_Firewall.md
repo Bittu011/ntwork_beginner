@@ -1,6 +1,6 @@
 ---
 title: Understand_the_core_Technologies_Palo_Alto_Firewall
-date: 2025-09-15 07:00:00 +0000
+date: 2025-07-08 07:00:00 +0000
 categories: [Palo Alto Firewall]
 tags: [firewall, Palo Alto Firewall]
 ---

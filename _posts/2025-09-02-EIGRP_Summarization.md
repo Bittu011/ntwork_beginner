@@ -1,6 +1,6 @@
 ---
 title: EIGRP Summarization
-date: 2025-11-10 11:11:00 +0000
+date: 2025-09-02 11:11:00 +0000
 categories: [Networking_Topics]
 tags: [networking, eigrp, networkengineer, cisco, itlab]
 ---

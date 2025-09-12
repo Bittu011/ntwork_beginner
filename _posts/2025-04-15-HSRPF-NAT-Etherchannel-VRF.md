@@ -1,6 +1,6 @@
 ---
 title: HSRPF-NAT-Etherchannel-VRF
-date: 2025-08-18 11:11:00 +0000
+date: 2025-04-15 11:11:00 +0000
 categories: [Networking_Labs]
 tags: [hsrp, nat, etherchannel, vrf, cisco, packettracer, networklab]
 ---

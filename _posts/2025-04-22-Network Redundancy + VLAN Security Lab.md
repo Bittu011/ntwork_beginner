@@ -1,6 +1,6 @@
 ---
 title: Network Redundancy + VLAN Security Lab
-date: 2025-08-22 11:11:00 +0000
+date: 2025-04-22 11:11:00 +0000
 categories: [Networking_Labs]
 tags: [hsrp, vlan, security, cisco, cml, nat, dhcp, acl, etherchannel, inter-vlan, networklab]
 ---

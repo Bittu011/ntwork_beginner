@@ -1,6 +1,6 @@
 ---
 title: EIGRP Fundamentals
-date: 2025-09-01 11:11:00 +0000
+date: 2025-04-29 11:11:00 +0000
 categories: [Networking_Topics]
 tags: [eigrp,ccna, ccnp, cisco]
 ---

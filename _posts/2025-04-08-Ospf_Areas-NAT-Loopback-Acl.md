@@ -1,6 +1,6 @@
 ---
 title: OSPF_Areas-NAT-Loopback-Acl
-date: 2025-08-11 04:00:00 +0000
+date: 2025-04-08 04:00:00 +0000
 categories: [Networking_Labs]
 tags: [ospf_areas ,nat, acl, vrf, cisco, networklab]
 ---
