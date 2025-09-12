@@ -213,7 +213,7 @@ Combine:
 
 ### 📌 Essential Subnetting Formulas
 
-```ios
+```bash
 Hosts per Subnet = 2^h – 2 (where h = host bits)
 Number of Subnets = 2^n (where n = borrowed bits)
 Block Size = 256 – Subnet Mask Value
