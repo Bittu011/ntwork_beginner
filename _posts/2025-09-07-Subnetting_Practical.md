@@ -161,7 +161,6 @@ Combine:
 
 ### 1. `192.168.2.0/24 → Create 8 Subnets`
 
-✅  
 - Need 8 subnets → `2^3 = 8` → Borrow 3 bits → `/27`  
 - Block size = `256 - 224 = 32`  
 - Ranges: `0–31`, `32–63`, ..., `224–255`  
@@ -173,7 +172,6 @@ Combine:
 
 ### 2. Broadcast of `10.0.4.0/22`
 
-✅  
 - Mask = `255.255.252.0`  
 - Block size = 4 (in 3rd octet)  
 - Next = `10.0.8.0` → Broadcast = `10.0.7.255`
@@ -184,7 +182,6 @@ Combine:
 
 ### 3. Which Subnet for `172.16.35.200/20`?
 
-✅  
 - Mask = `255.255.240.0` → Block size = 16 (3rd octet)  
 - Ranges: `0–15`, `16–31`, `32–47`, ...  
 - 35 → in range `32–47`
@@ -194,8 +191,7 @@ Combine:
 ---
 
 ### 4. Aggregate `192.168.8.0/24` + `192.168.9.0/24`
-
-✅  
+ 
 - Two consecutive `/24` networks  
 - Combine → `/23`  
 - Range = `192.168.8.0 – 192.168.9.255`
@@ -205,8 +201,7 @@ Combine:
 ---
 
 ### 5. Need 500 Hosts → Which Prefix?
-
-✅  
+ 
 - `2^n - 2 ≥ 500` → `n = 9`  
 - Host bits = 9 → Prefix = `/23`  
 - Mask = `255.255.254.0` → 510 usable
@@ -218,7 +213,7 @@ Combine:
 
 ### 📌 Essential Subnetting Formulas
 
-```bash
+```ios
 Hosts per Subnet = 2^h – 2 (where h = host bits)
 Number of Subnets = 2^n (where n = borrowed bits)
 Block Size = 256 – Subnet Mask Value
