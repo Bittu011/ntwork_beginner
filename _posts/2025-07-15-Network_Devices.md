@@ -173,15 +173,18 @@ NOTE A port is a physical connector on a device. Devices are physically connecte
 | `arp -d` | Clear ARP table (Admin mode). |
 
 ### **Summary Table: Key Network Devices**
-| Order | Topic                           | Brief Description                               | Key Details / Typical Use                         |
-|------:|---------------------------------|--------------------------------------------------|---------------------------------------------------|
-| 1     | Network Devices                 | Basic hardware in networks (NIC, switch, router, hub, AP) | Connect, forward, and manage data traffic         |
-| 2     | Network Topology                | Physical/logical arrangement of network connectivity | Star, bus, ring, mesh; affects efficiency         |
-| 3     | Network Interface Card (NIC)    | Hardware enabling device network access          | Unique MAC, installed on end devices              |
-| 4     | Repeater                        | Signal booster to extend network length          | Ethernet extension, Layer 1 device                |
-| 5     | Bridge                          | Connects/filter traffic between network segments | Splits collision domains, Layer 2 device          |
-| 6     | Gateway                         | Connects different networks/protocols            | LAN-to-Internet, protocol conversion              |
-| 7     | Message Delivery Types          | Data delivery forms: unicast, broadcast, multicast | 1-to-1, 1-to-all, 1-to-group transmission        |
+
+
+| Order | Topic                         | Brief Description                                  | Key Details / Typical Use                                      |
+|-------|-------------------------------|----------------------------------------------------|----------------------------------------------------------------|
+| 1     | Network Devices               | Basic hardware in networks (NIC, switch, router...)| Connect, forward, and manage data traffic                      |
+| 2     | Network Topology              | Physical/logical arrangement of network connectivity| Star, bus, ring, mesh; affects efficiency                      |
+| 3     | Network Interface Card (NIC)  | Hardware enabling device network access            | Unique MAC, installed on end devices                           |
+| 4     | Repeater                      | Signal booster to extend network length            | Ethernet extension, Layer 1 device                             |
+| 5     | Bridge                        | Connects/filter traffic between network segments   | Splits collision domains, Layer 2 device                       |
+| 6     | Gateway                       | Connects different networks/protocols              | LAN-to-Internet, protocol conversion                           |
+| 7     | Message Delivery Types        | Data delivery forms: unicast, broadcast, multicast | 1-to-1, 1-to-all, 1-to-group transmission                       |
+
 
 
 ## 🙌 Connect With Me
