@@ -1,7 +1,7 @@
 ---
 title: VTP & DTP
 date: 2025-06-03 04:00:00 +0000
-categories: [Networking_Topics, CCNA]
+categories: [Networking_Topics]
 tags: [vtp, dtp, ccna, ccnp, cisco, network_topics]
 ---
 

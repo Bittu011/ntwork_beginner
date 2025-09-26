@@ -1,7 +1,7 @@
 ---
 title: CDP & LLDP
 date: 2025-06-10 04:00:00 +0000
-categories: [Networking_Topics, CCNA]
+categories: [Networking_Topics]
 tags: [cdp, lldp, ccna, ccnp, cisco, network_topics]
 ---
 

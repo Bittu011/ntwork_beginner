@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting
 date: 2025-07-01 04:00:00 +0000
-categories: [Networking_Topics, CCNA]
+categories: [Networking_Topics]
 tags: [troubleshooting, ccna, ccnp, cisco, network_topics]
 ---
 
