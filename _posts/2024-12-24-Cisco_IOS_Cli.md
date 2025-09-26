@@ -1,7 +1,7 @@
 ---
 title: Cisco IOS CLI
 date: 2024-12-24 05:00:00 +0000
-categories: [Networking_Topics]
+categories: [Networking_Topics, CCNA]
 tags: [networking, CLI, networkengineer, cisco, itlab, networkbasics]
 ---
 

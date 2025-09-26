@@ -1,7 +1,7 @@
 ---
 title: Network Device
 date: 2025-02-11 05:00:00 +0000
-categories: [Networking_Topics]
+categories: [Networking_Topics, CCNA]
 tags: [network_device, ccna, cisco]
 ---
 

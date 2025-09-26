@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting
+title: OSPF Network Types
 date: 2025-07-08 04:00:00 +0000
 categories: [Networking_Topics]
 tags: [ospf_network_types, ccna, ccnp, cisco, network_topics]

@@ -1,7 +1,7 @@
 ---
 title: Etherchannel
 date: 2025-05-06 04:00:00 +0000
-categories: [Networking_Topics]
+categories: [Networking_Topics, CCNA]
 tags: [etherchannel ,ccna, ccnp, cisco, network_topics]
 ---
 

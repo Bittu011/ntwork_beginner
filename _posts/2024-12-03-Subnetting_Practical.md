@@ -1,7 +1,7 @@
 ---
 title: Subnetting Practical
 date: 2024-12-03 05:00:00 +0000
-categories: [Networking_Practical]
+categories: [Networking_Practical, CCNA]
 tags: [subnetting, networking, ccna, ccnp]
 ---
 

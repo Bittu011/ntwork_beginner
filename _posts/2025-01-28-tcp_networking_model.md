@@ -1,7 +1,7 @@
 ---
 title: TCP/IP Model
 date: 2025-01-28 05:00:00 +0000
-categories: [Networking_Topics]
+categories: [Networking_Topics, CCNA]
 tags: [networking, dhcp, networkengineer, cisco, itlab, cybersecurity, networkbasics]
 ---
 
