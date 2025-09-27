@@ -33,7 +33,8 @@ OSPF (Open Shortest Path First) network types define **how routers communicate o
 
 <h2 align="center">🧠 Deep Dive: Network Types Explained</h2>
 
-1.  🔵 **Broadcast**
+1.  <h3>🔵 Broadcast</h3>
+
     -   **Media**: Ethernet LAN
     -   **Characteristics**: Supports multicast and automatic discovery
     -   **DR/BDR**: Required to reduce adjacency complexity
@@ -43,7 +44,8 @@ OSPF (Open Shortest Path First) network types define **how routers communicate o
     -   **Timers**: Hello: 10s, Dead: 40s
     -   **Command**:```ip ospf network broadcast```
 
-2.  🟠 **Nonbroadcast (NBMA)**
+2.  <h3>🟠 Nonbroadcast (NBMA)</h3>
+
     -   **Media**: Frame Relay, ATM, X.25 (No multicast support)
     -   **Characteristics**: Multi-access, but no dynamic discovery
     -   **Neighbor Configuration**: Manual using `neighbor <IP>`
@@ -51,7 +53,8 @@ OSPF (Open Shortest Path First) network types define **how routers communicate o
     -   **Timers**: Hello: `30s`, Dead: `120s`
     -   **Command**:`ip ospf network non-broadcast`
 
-3.  🟢 **Point-to-Point (P2P)**
+3.  <h3>🟢 Point-to-Point (P2P)</h3>
+
     -   **Media**: Serial (HDLC/PPP), GRE tunnels
     -   **Characteristics**: Direct link between 2 routers
     -   **DR/BDR**: Not used
@@ -59,7 +62,8 @@ OSPF (Open Shortest Path First) network types define **how routers communicate o
     -   **Timers**: Hello: 10s, Dead: 40s
     -   **Command**:`ip ospf network point-to-point`
 
-4.  🟡 **Point-to-Multipoint (P2MP)**
+4.  <h3>🟡 Point-to-Multipoint (P2MP)</h3>
+
     -   **Media**: Frame Relay Hub-and-Spoke
     -   **Characteristics**: All destinations treated as P2P links
     -   **DR/BDR**: Not used
@@ -70,7 +74,8 @@ OSPF (Open Shortest Path First) network types define **how routers communicate o
     -   **Timers**: Hello: `30s`, Dead: `120s`
     -   **Command**:`ip ospf network point-to-multipoint`
 
-5.  🔴 **Point-to-Multipoint Nonbroadcast**
+5.  <h3>🔴 Point-to-Multipoint Nonbroadcast</h3>
+
     -   **Media**: NBMA topologies without multicast (Frame Relay)
     -   **Characteristics**: Same as P2MP but no multicast
     -   **Discovery**: Manual (static neighbors)
@@ -78,7 +83,8 @@ OSPF (Open Shortest Path First) network types define **how routers communicate o
     -   **Timers**: Hello: `30s`, Dead: `120s`
     -   **Command**:`ip ospf network point-to-multipoint non-broadcast`
 
-6.  ⚪ **Loopback Interfaces**
+6.  <h3>⚪ Loopback Interfaces</h3>
+
     -   **Purpose**: Used for Router ID or stable routing interfaces
     -   **Behavior**: Always advertised as `/32` regardless of actual subnet mask
     -   **OSPF LSA Type**: Type 1 Router LSA (Stub link)
