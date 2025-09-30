@@ -72,16 +72,19 @@ Here’s a detailed guide to upload your image.
 <h3>🔹 Step 2: Navigate to the Right Directory</h3>
 
 EVE-NG stores images in specific directories. Navigate to:
+
 ```bash
 /opt/unetlab/addons/qemu/
 ```
 
 Each image must go in a folder named after the device type, like:
+
 ```bash
 /opt/unetlab/addons/qemu/cisco-asav-921/
 ```
 
 📁 The folder must follow the correct naming convention, usually like:
+
 ```bash
 vendor-platform-version
 e.g., cisco-asav-921
@@ -92,6 +95,7 @@ e.g., cisco-asav-921
 
 -   Upload your `.qcow2` file to the folder you created.
 -   Rename the file to match EVE-NG naming conventions:
+
 ```bash
 virtioa.qcow2
 ```
@@ -102,6 +106,7 @@ virtioa.qcow2
 <h3>🔹 Step 4: Fix Permissions</h3>
 
 After uploading, you must set the correct permissions. Use SSH (PuTTY or Terminal) to run:
+
 ```bash
 /opt/unetlab/wrappers/unl_wrapper -a fixpermissions
 ```
@@ -110,7 +115,6 @@ This step is **critical**. Without it, your images might not boot properly.
 
 
 <h3>🔹 Step 5: Refresh EVE-NG and Start Building</h3>
-
 
 -   Go back to your EVE-NG web interface.
 -   Create a new lab or open an existing one.
@@ -147,7 +151,7 @@ Uploading an image to EVE-NG is straightforward once you understand the structur
 
 
 
-<h3>## 🙌 Connect With Me</h3>
+## 🙌 Connect With Me
 
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github)](https://github.com/Ntwork-Beginner)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ntworkbeginner/)
