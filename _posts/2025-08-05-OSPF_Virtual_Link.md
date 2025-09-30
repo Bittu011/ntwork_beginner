@@ -1,8 +1,8 @@
 ---
-title: How to Upload the Image to EVE-NG
+title: OSPF Virtual Links
 date: 2025-08-05 04:00:00 +0000
 categories: [Networking_Topics]
-tags: [eve-ng, networking, ciscolabs, virtualization, imageupload, homelab, networksimulation]
+tags: [ospf, ccna, ccnp, networking]
 ---
 
 
