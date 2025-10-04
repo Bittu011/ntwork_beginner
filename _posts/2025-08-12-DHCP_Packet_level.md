@@ -109,39 +109,39 @@ Without DHCP, every device would need manual configuration — error-prone, inef
 
 ```plaintext
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|     op      |    htype     |    hlen      |     hops         |
+|     op      |    htype     |    hlen      |     hops          |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|                          xid (Transaction ID)                |
+|                          xid (Transaction ID)                 |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|           secs              |           flags               |
+|           secs              |           flags                 |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|                      ciaddr (Client IP address)              |
+|                      ciaddr (Client IP address)               |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|                      yiaddr ("Your" IP address)              |
+|                      yiaddr ("Your" IP address)               |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|                      siaddr (Server IP address)              |
+|                      siaddr (Server IP address)               |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|                      giaddr (Gateway IP address)             |
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|                                                               |
-|                    chaddr (Client MAC address)               |
-|                                                               |
-|                                                               |
+|                      giaddr (Gateway IP address)              |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 |                                                               |
-|                    sname (Optional Server Hostname)          |
-|                         [64 bytes]                           |
+|                    chaddr (Client MAC address)                |
+|                                                               |
 |                                                               |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 |                                                               |
-|                    file (Boot File Name)                     |
-|                         [128 bytes]                          |
+|                    sname (Optional Server Hostname)           |
+|                         [64 bytes]                            |
 |                                                               |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 |                                                               |
-|                    options (Variable Length)                 |
-|             Starts with 4-byte magic cookie (DHCP)           |
-|              Then a sequence of TLV DHCP options             |
+|                    file (Boot File Name)                      |
+|                         [128 bytes]                           |
+|                                                               |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                                                               |
+|                    options (Variable Length)                  |
+|             Starts with 4-byte magic cookie (DHCP)            |
+|              Then a sequence of TLV DHCP options              |
 |                                                               |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 ```
