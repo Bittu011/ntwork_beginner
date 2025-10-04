@@ -106,6 +106,8 @@ Without DHCP, every device would need manual configuration — error-prone, inef
 
 ## 5. DHCP Packet Structure (ASCII Layout)
 
+
+```plaintext
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 |     op      |    htype     |    hlen      |     hops         |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -142,6 +144,8 @@ Without DHCP, every device would need manual configuration — error-prone, inef
 |              Then a sequence of TLV DHCP options             |
 |                                                               |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+```
+
 
 ## 6. DHCP Options Overview
 
