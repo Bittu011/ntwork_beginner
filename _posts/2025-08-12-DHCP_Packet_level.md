@@ -1,6 +1,6 @@
 ---
 title: DHCP Packet Level
-date: 2025-08-05 04:00:00 +0000
+date: 2025-08-12 04:00:00 +0000
 categories: [Networking_Topics]
 tags: [dhcp, packet_level, ccna, ccnp, networking]
 ---
