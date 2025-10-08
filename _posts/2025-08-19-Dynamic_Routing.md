@@ -20,6 +20,8 @@ tags: [dynamic_routing, ccna, ccnp, networking]
 Dynamic routing allows routers to automatically exchange routing information using protocols, keeping their routing tables updated without manual configuration.
 
 **🔄 Dynamic Routing vs. Static Routing**
+
+
 | Feature                         | Static Routing           | Dynamic Routing                        |
 | ------------------------------- | ------------------------ | -------------------------------------- |
 | **Configured by**               | Manually by admin        | Automatically by protocol              |
