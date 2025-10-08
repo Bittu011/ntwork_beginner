@@ -1,6 +1,6 @@
 ---
 title: Subnetting
-date: 2025-02-04 05:00:00 +0000
+date: 2025-02-11 05:00:00 +0000
 categories: [CCNA]
 tags: [subnetting, networking, ccna, ccnp]
 ---

@@ -139,8 +139,8 @@ IPv6 defines five primary address types—each with distinct purposes.
 <h3 align="center">⚡ Reserved Special Addresses</h3>
 
 
--   **Unspecified**: ` :: ` → Used when a device doesn’t know its address or as default route (`::/0`)
--   **Loopback**: ` ::1 ` → Used for local testing (like `127.0.0.1` in IPv4)
+-   **Unspecified**: `::` → Used when a device doesn’t know its address or as default route (`::/0`)
+-   **Loopback**: `::1` → Used for local testing (like `127.0.0.1` in IPv4)
 
 
 <h2 align="center">6️⃣ IPv6 Configuration and EUI-64</h2>
@@ -164,7 +164,7 @@ Router(config-if)# ipv6 address 2001:db8::2/64 eui-64
 Generates the Interface ID automatically from the device’s MAC address:
 
 1.  Split MAC into halves
-2.  Insert ` fffe ` in the middle
+2.  Insert `fffe` in the middle
 3.  Flip the 7th bit (U/L bit)
 
 > Example: MAC: `00:1A:2B:3C:4D:5E` → Interface ID: `021a:2bff:fe3c:4d5e`

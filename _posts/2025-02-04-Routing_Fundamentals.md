@@ -1,7 +1,7 @@
 ---
 title: Routing Fundamentals
-date: 2025-01-21 05:00:00 +0000
-categories: [Networking_Topics]
+date: 2025-02-04 05:00:00 +0000
+categories: [CCNA]
 tags: [networking, Routing Fundamentals, networkengineer, ccna, networkbasics]
 ---
 
