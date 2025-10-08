@@ -39,6 +39,8 @@ Dynamic routing allows routers to automatically exchange routing information usi
 Used **within** a single Autonomous System (AS).
 
 **▶ By Algorithm:**
+
+
 | Algorithm           | Description                                                                       | Protocols   |
 | ------------------- | --------------------------------------------------------------------------------- | ----------- |
 | **Distance-Vector** | Routers exchange known routes and hop counts without a complete network map.      | RIP, EIGRP  |
@@ -46,6 +48,7 @@ Used **within** a single Autonomous System (AS).
 
 
 **2️⃣ Exterior Gateway Protocols (EGPs)**
+
 
 Used between Autonomous Systems (e.g., enterprise to ISP).
 
@@ -57,7 +60,7 @@ Used between Autonomous Systems (e.g., enterprise to ISP).
 <h2 align="center">🔹 Part 3: Understanding Route Selection</h2>
 
 
-<h3 align="center"2 Core Meanings of "Route Selection":></h3>
+<h3 align="center">2 Core Meanings of "Route Selection":</h3>
 
 1.  **Routing Table Population**:
     Choosing which route(s) to insert into the routing table (only the best per destination is kept).
