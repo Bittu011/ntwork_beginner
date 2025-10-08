@@ -6,8 +6,7 @@ tags: [packet_flow, ccna, ccnp, cisco, network_topics]
 ---
 
 
-<h1 align="🌐 The Great Digital Road Trip: Tracing the Life of a Network Packet"></h1>
-
+<h1 align="center">🌐 The Great Digital Road Trip: Tracing the Life of a Network Packet</h1>
 
 >   An in-depth technical journey of a network packet — from source to destination.
 
