@@ -6,7 +6,7 @@ tags: [eigrp_stub_routing, eigrp, ccna, ccnp, networking]
 ---
 
 
-<h1 align-"center">🛰️ EIGRP Stub Routing: Fortifying the Network Edge and Accelerating Convergence</h1>
+<h1 align="center">🛰️ EIGRP Stub Routing: Fortifying the Network Edge and Accelerating Convergence</h1>
 
 >   Category: EIGRP | Level: Intermediate–Advanced | Use Case: WAN Optimization & Query Suppression
 
