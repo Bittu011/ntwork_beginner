@@ -12,7 +12,7 @@ tags: [eigrp_stub_routing, eigrp, ccna, ccnp, networking]
 
 
 
-<h2 align-"center">🚀 Introduction: Why Stub Routing Matters</h2>
+<h2 align="center">🚀 Introduction: Why Stub Routing Matters</h2>
 
 
 Enhanced Interior Gateway Routing Protocol (EIGRP) is widely respected for its fast convergence, powered by its **Diffusing Update Algorithm (DUAL)**.
@@ -28,7 +28,7 @@ That’s where **EIGRP Stub Routing** becomes the hidden weapon. It:
 In essence, it protects your network’s core by reducing unnecessary computations from remote edge routers.
 
 
-<h2 align-"center">⚙️ Part 1: The Problem — “The Query Storm”</h2>
+<h2 align="center">⚙️ Part 1: The Problem — “The Query Storm”</h2>
 
 
 When a route disappears in a standard EIGRP topology:
@@ -54,7 +54,7 @@ In hub-and-spoke WAN designs, a query sent from the hub to multiple spoke router
 EIGRP Stub Routing limits query propagation to prevent edge routers from participating in such diffusing computations.
 
 
-<h2 align-"center">🧩 Part 2: What is an EIGRP Stub Router?</h2>
+<h2 align="center">🧩 Part 2: What is an EIGRP Stub Router?</h2>
 
 
 An **EIGRP Stub Router** is a device configured to tell its neighbors “Don’t query me for alternate paths.”
@@ -78,7 +78,7 @@ When configured, the router:
 | **Resource Optimization**    | Reduces CPU load and EIGRP update traffic, especially over slow WAN links (like T1).                      |
 
 
-<h2 align-"center">🛠️ Part 3: EIGRP Stub Configuration and Behavior</h2>
+<h2 align="center">🛠️ Part 3: EIGRP Stub Configuration and Behavior</h2>
 
 
 By default, the `eigrp stub` command advertises only connected and summary routes
@@ -138,7 +138,7 @@ R1(config-router)# eigrp stub connected summary
 | `show ip eigrp topology`         | Verifies route advertisements and query scope.      |
 
 
-<h2 align-"center">🧭 Part 4: The EIGRP Stub Site — Advanced WAN Optimization</h2>
+<h2 align="center">🧭 Part 4: The EIGRP Stub Site — Advanced WAN Optimization</h2>
 
 
 In real-world topologies, a stub router may still have **downstream routers** on its LAN side.
@@ -186,7 +186,7 @@ router eigrp EIGRP-NAMED
 -   Ensures no transit routing occurs between WANs.
 
 
-<h2 align-"center">🧱 Design Considerations</h2>
+<h2 align="center">🧱 Design Considerations</h2>
 
 
 | Scenario                                            | Recommended Stub Type               |
@@ -198,7 +198,7 @@ router eigrp EIGRP-NAMED
 | Device for monitoring or backup (no advertisements) | `receive-only` stub                 |
 
 
-<h2 align-"center">⚡ Key Takeaways</h2>
+<h2 align="center">⚡ Key Takeaways</h2>
 
 ✅ **EIGRP Stub Routing** limits query scope and protects edge routers from participating in route computations.
 ✅ **It prevents Stuck-In-Active (SIA)** events by stopping unnecessary query propagation.
@@ -207,7 +207,7 @@ router eigrp EIGRP-NAMED
 ✅ Critical for **hub-and-spoke WAN, DMVPN**, and **remote branch** topologies.
 
 
-<h2 align-"center">🧠 Interview & Revision Quickfire</h2>
+<h2 align="center">🧠 Interview & Revision Quickfire</h2>
 
 | Question                                           | Answer                                                        |
 | -------------------------------------------------- | ------------------------------------------------------------- |
