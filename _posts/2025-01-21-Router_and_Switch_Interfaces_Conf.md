@@ -1,7 +1,7 @@
 ---
 title: Router and Switch Interfaces Configuraions
-date: 2025-01-14 05:00:00 +0000
-categories: [Networking_Topics]
+date: 2025-01-21 05:00:00 +0000
+categories: [CCNA]
 tags: [networking, networkengineer, cccna, networkbasics]
 ---
 

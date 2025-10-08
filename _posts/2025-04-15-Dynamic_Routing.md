@@ -1,7 +1,7 @@
 ---
 title: Dynamic Routing
-date: 2025-08-19 04:00:00 +0000
-categories: [Networking_Topics]
+date: 2025-04-15 04:00:00 +0000
+categories: [CCNA]
 tags: [dynamic_routing, ccna, ccnp, networking]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Ethernet LAN Switching
-date: 2024-12-31 05:00:00 +0000
-categories: [Networking_Topics]
+date: 2024-12-24 05:00:00 +0000
+categories: [CCNA]
 tags: [networking, LAN, Switching, Ethernet, networkengineer, cisco, itlab, networkbasics]
 ---
 

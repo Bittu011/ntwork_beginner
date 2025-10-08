@@ -1,7 +1,7 @@
 ---
 title: Cables, Connectors and Ports
-date: 2025-02-18 05:00:00 +0000
-categories: [Networking_Topics]
+date: 2024-11-12 05:00:00 +0000
+categories: [CCNA]
 tags: [Cables, Connectos, Ports, ccna, cisco]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: OSPF Fundamentals
-date: 2025-03-25 05:00:00 +0000
-categories: [Networking_Topics]
+date: 2025-04-29 05:00:00 +0000
+categories: [CCNA]
 tags: [networking, ospf, networkengineer, cisco, itlab]
 ---
 
