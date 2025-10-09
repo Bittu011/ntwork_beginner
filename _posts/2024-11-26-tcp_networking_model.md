@@ -105,7 +105,7 @@ UDP is fast, connectionless, no guarantee (used in VoIP, DNS).
 - Defines how web clients (**browsers**) and servers exchange data (**requests & responses**).  
 - Example: A browser sending  ``` GET /index.html ``` to a server.  
 
-- **Layer**: Application (**Layer 7 in TCP/IP, Layer 7 in OSI**).  
+- **Layer**: Application (**Layer 5 in TCP/IP, Layer 7 in OSI**).  
 
 
 
