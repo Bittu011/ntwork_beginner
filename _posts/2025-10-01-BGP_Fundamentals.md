@@ -91,35 +91,70 @@ BGP has several states before a session is fully established:
 <h3>🔹 TCP Phase States</h3>
 
 1.  **Idle**
-    -   Event detected
-    -   Trying to establish a TCP connection or wait for one
+    -   Initial state when `router bgp <asn>` is configured.
+    -   On `neighbor <IP> remote-as <asn>`, BGP starts TCP connection (port 179).
+    -   Initializes BGP resources and listens for incoming connections.
 
 2.  **Connect**
-    -   TCP 3-way handshake (SYN, SYN-ACK, ACK)
-    -   120-second retry timer
-    -   Failure moves to Active
+    -   Starts TCP 3-way handshake (SYN, SYN-ACK, ACK).
+    -   If fails, starts **ConnectRetry timer (120s)**.
+    -   On failure → goes to **Active**. On success → OpenSent.
 
 3.  **Active**
-    -   Tries new TCP connection with peer
-    -   If fails: reset & retry
-    -   If successful: move to OpenSent
+    -   Tries new TCP connection.
+    -   If fails → back to Connect and retries (timer resets).
+    -   If successful → move to OpenSent.
+
+>   ⚠️ Frequent transition between Connect/Active indicates TCP issues (ACLs, port 179 blocked, IP reachability).
 
 <h3>🔹 BGP Phase States</h3>
 
 
 4.  **OpenSent**
-    -   Exchange OPEN messages
-    -   Check for BGP version, AS number match
-    -   If matched, go to OpenConfirm
+    -   Sends **OPEN** message (BGP version, ASN, router ID, Hold Timer, optional capabilities).
+    -   If mismatch/error → sends **NOTIFICATION** → back to Idle.
+    -   If matched → move to OpenConfirm.
 
 5.  **OpenConfirm**
-    -   Waiting for KEEPALIVE
-    -   If received, move to Established
+    -   Waits for **KEEPALIVE** message from peer.
+    -   If received → go to Established.
+    -   If not received → reset to Idle.
 
 6.  **Established**
-    -   BGP session is up
-    -   Exchange UPDATE and KEEPALIVE messages
-    -   Start routing table population
+    -   BGP session fully up.
+    -   Exchange **UPDATE** messages (NLRI, path attributes).
+    -   Sends **KEEPALIVE** every **60s (1/3 of Hold Timer 180s)**.
+    -   If no UPDATE/KEEPALIVE in hold time → reset to Idle.
+
+
+
+<h2 align="center">🧠 Two-Phase Process</h2>
+
+
+-   **Phase 1: TCP Phase** – Establish transport connection
+    -   ➝ Idle → Connect → Active
+
+-   **Phase 2: BGP Phase** – Exchange BGP messages
+    -   ➝ OpenSent → OpenConfirm → Established
+
+
+<h2 align="center">🔁 Quick FSM Flow Summary</h2>
+
+
+```bash
+Idle
+ ├─▶ Connect (start TCP handshake)
+ │    ├─▶ success → OpenSent
+ │    └─▶ fail → Active
+ │               ├─▶ success → OpenSent
+ │               └─▶ fail → Connect (retry)
+OpenSent
+ └─▶ OpenConfirm (if OPEN accepted)
+       └─▶ Established (if KEEPALIVE received)
+```
+
+>   ✅ In Established, routes are exchanged via UPDATEs, and session health is maintained via KEEPALIVEs. If any error or timer expires → back to Idle.
+
 
 
 <h2 align="center">🔁 BGP State Flow Summary</h2>
