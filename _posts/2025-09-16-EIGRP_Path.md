@@ -1,6 +1,6 @@
 ---
 title: EIGRP Path Selection
-date: 2025-09-01 04:00:00 +0000
+date: 2025-09-16 04:00:00 +0000
 categories: [Networking_Topics]
 tags: [eigrp_path, eigrp, ccna, ccnp, networking]
 ---

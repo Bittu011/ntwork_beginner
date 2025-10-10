@@ -1,6 +1,6 @@
 ---
 title: EIGRP Authentication
-date: 2025-09-02 04:00:00 +0000
+date: 2025-09-23 04:00:00 +0000
 categories: [Networking_Topics]
 tags: [eigrp_authentication, eigrp, ccna, ccnp, networking]
 ---

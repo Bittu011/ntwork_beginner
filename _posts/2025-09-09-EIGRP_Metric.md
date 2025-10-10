@@ -1,6 +1,6 @@
 ---
 title: EIGRP Metric Calculations
-date: 2025-09-01 04:00:00 +0000
+date: 2025-09-09 04:00:00 +0000
 categories: [Networking_Topics]
 tags: [eigrp_metric, eigrp, ccna, ccnp, networking]
 ---

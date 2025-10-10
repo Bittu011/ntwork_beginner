@@ -1,6 +1,6 @@
 ---
 title: EIGRP Stub Routing
-date: 2025-09-01 04:00:00 +0000
+date: 2025-09-23 04:00:00 +0000
 categories: [Networking_Topics]
 tags: [eigrp_stub_routing, eigrp, ccna, ccnp, networking]
 ---
