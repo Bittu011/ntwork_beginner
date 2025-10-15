@@ -1,13 +1,13 @@
 ---
-title: Cloud Computing Primer: The Technology Powering the Cloud
+title: Cloud Computing Primer
 date: 2025-10-14 04:00:00 +0000
 categories: [Cloud]
 tags: [cloud, ntworkengineer]
 ---
 
-# 📘 Cloud Computing Primer: The Technology Powering the Cloud
+<h1 align="center">📘 Cloud Computing Primer: The Technology Powering the Cloud</h1>
 
----
+
 
 ## 🧠 1. The Roots of the Cloud: Key Innovations
 
