@@ -1,5 +1,5 @@
 ---
-title: DHCP
+title: Cloud Computing Primer: The Technology Powering the Cloud
 date: 2025-10-14 04:00:00 +0000
 categories: [Cloud]
 tags: [cloud, ntworkengineer]

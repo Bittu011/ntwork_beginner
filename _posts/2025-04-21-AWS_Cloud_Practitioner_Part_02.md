@@ -1,6 +1,6 @@
 ---
 title: AWS Cloud Practitoner Part 02
-date: 2025-04-15 04:00:00 +0000
+date: 2025-04-21 04:00:00 +0000
 categories: [AWS_Topics]
 tags: [cloud, aws]
 ---

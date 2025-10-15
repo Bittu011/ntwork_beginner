@@ -1,6 +1,6 @@
 ---
 title: OSPF Metric
-date: 2025-05-13 04:00:00 +0000
+date: 2025-06-03 04:00:00 +0000
 categories: [Networking_Topics]
 tags: [ospf_metric ,ccna, ccnp, cisco, network_topics]
 ---

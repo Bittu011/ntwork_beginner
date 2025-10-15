@@ -1,6 +1,6 @@
 ---
 title: EIGRP Stub Routing
-date: 2025-03-18 05:00:00 +0000
+date: 2025-05-06 05:00:00 +0000
 categories: [Networking_Topics]
 tags: [networking, eigrp, networkengineer, cisco, itlab]
 ---
