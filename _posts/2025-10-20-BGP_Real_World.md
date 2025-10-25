@@ -1,6 +1,6 @@
 ---
 title: BGP - The Real-World Guide (Not Boring)
-date: 2025-11-25 04:00:00 +0000
+date: 2025-10-20 04:00:00 +0000
 categories: [BGP]
 tags: [bgp, ibgp, ebgp, ntworkengineer, sd&d]
 ---

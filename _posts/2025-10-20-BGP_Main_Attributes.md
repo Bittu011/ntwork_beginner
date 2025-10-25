@@ -1,6 +1,6 @@
 ---
 title: BGP Attributes
-date: 2025-12-02 04:00:00 +0000
+date: 2025-10-20 04:00:00 +0000
 categories: [BGP]
 tags: [bgp, ibgp, ebgp, ntworkengineer, bgp_attrubutes]
 ---
