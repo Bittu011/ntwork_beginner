@@ -20,10 +20,13 @@ tags: [ccna, ntworkengineer, ccnp enarsi, ccnp, ipv4, subnetting]
 
 ### 🔹 B. Address Function Across OSI Layers
 
+
 | Layer | Type of Address | Description |
 |:------|:----------------|:-------------|
 | **Layer 2 (Data Link)** | MAC Address | Unique per device; doesn’t indicate location (like a name). |
-| **Layer 3 (Network)** | IP Address (IPv4/IPv6) | Indicates both *who* and *where* a device is located. |
+| **Layer 3 (Network)** | IP Address (IPv4 / IPv6) | Indicates both *who* and *where* a device is located. |
+
+
 
 When data moves across a network, IP encapsulates it in a **packet**, tagging both:
 - **Source IP:** Origin of the packet  
@@ -55,10 +58,12 @@ Each IPv4 address has:
 - If the destination is **within the same subnet**, packets are sent directly.  
 - If **outside**, they’re forwarded to the **default gateway** (router).
 
+
 ### 🔹 B. IPv6 Comparison
 
+
 | Feature | IPv4 | IPv6 |
-|:---------|:------|:------|
+|:---------|:-----|:-----|
 | **Address Length** | 32 bits | 128 bits |
 | **Format** | Dotted-decimal | Hexadecimal with colons |
 | **Subnet Notation** | Mask or `/` slash (e.g., `/24`) | Always uses `/` notation (e.g., `/64`) |
@@ -69,18 +74,22 @@ Each IPv4 address has:
 
 ### 🔹 A. Public vs. Private
 
+
 | Type | Purpose | Address Range |
 |:------|:----------|:----------------|
-| **Public** | Globally unique, routable on the Internet. | Any address *not* in private range (1.0.0.0–9.x.x.x, 11.x.x.x–126.x.x.x, 128.x.x.x–223.x.x.x). |
-| **Private** | Used only within local networks. Not Internet-routable. | `10.0.0.0 – 10.255.255.255` <br> `172.16.0.0 – 172.31.255.255` <br> `192.168.0.0 – 192.168.255.255` |
+| **Public** | Globally unique, routable on the Internet. Any address *not* in private range (1.0.0.0–9.x.x.x, 11.x.x.x–126.x.x.x, 128.x.x.x–223.x.x.x). | — |
+| **Private** | Used only within local networks. Not Internet-routable. | `10.0.0.0 – 10.255.255.255`<br>`172.16.0.0 – 172.31.255.255`<br>`192.168.0.0 – 192.168.255.255` |
+
 
 ### 🔹 B. Reserved IPv4 Addresses
 
+
 | Type | Rule | Example |
-|:------|:------|:---------|
+|:------|:------|:----------|
 | **Network Address** | All host bits = `0` | `20.1.17.0/24` |
 | **Broadcast Address** | All host bits = `1` | `20.1.17.255` |
 | **Limited Broadcast** | Reaches all local devices; not routed beyond local network. | `255.255.255.255` |
+
 
 > ⚠️ Note: IPv6 does **not** use broadcast addresses.
 
