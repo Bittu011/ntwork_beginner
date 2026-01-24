@@ -1,6 +1,6 @@
 ---
 title: V-Wire Interface Palo Alto Firewall
-date: 2025-12-20 04:00:00 +0000
+date: 2025-12-27 04:00:00 +0000
 categories: [Palo Alto Firewall]
 tags: [V-wire, NGFW]
 ---
