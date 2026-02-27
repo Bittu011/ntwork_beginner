@@ -7,6 +7,8 @@ tags: [Security Policy, NGFW]
 
 
 # Palo Alto Networks Training  
+
+
 ## Security Policy Fundamentals
 
 
