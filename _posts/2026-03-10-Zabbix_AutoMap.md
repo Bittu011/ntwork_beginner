@@ -242,7 +242,7 @@ Value: R1
 
 Since switches connect to Router R1, configure the tag below:
 
-```txt
+```bash
 Tag: am.link.connect_to
 Value: R1
 ```
@@ -354,7 +354,7 @@ python3.9 -m pip install -r requirements.txt
 Now execute the script:
 
 ```bash
-python3.9 automap.py --zabbix_host 192.168.X.X --zabbix_folder / --zabbix_port 80 --zabbix_scheme http --map automap --group automap --map_layout tree --log_level debug --verbose --token token-paste-here
+python3.9 automap.py --zabbix_host 192.168.X.X --zabbix_folder / --zabbix_port 80 --zabbix_scheme http --map automap --group automap --map_layout tree --log_level debug --verbose --token your-token-paste-here
 ```
 
 Replace:
@@ -366,6 +366,8 @@ Replace:
 with your **Zabbix server IP**.
 
 Also paste your **API token**.
+
+
 ---
 
 # Step 8 – Map Will Be Created Automatically
