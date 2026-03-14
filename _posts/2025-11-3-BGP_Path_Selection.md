@@ -1,7 +1,7 @@
 ---
 title: BGP Path Selection - Technical Notes
 date: 2025-11-3 04:00:00 +0000
-categories: [CCNA]
+categories: [BGP]
 tags: [ccna, ntworkengineer, ccnp enarsi, ccnp, bgp]
 ---
 

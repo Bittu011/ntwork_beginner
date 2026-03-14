@@ -70,6 +70,7 @@ snmp-server host 192.168.X.X version 2c zabbix_ro
 
 Apply the **same SNMP configuration on switches** so Zabbix can monitor them.
 
+
 Example:
 ```bash
 snmp-server community zabbix_ro RO
@@ -101,11 +102,10 @@ sudo nano /etc/resolve.conf     => we have to change IP (8.8.8.8) in nameserver
 ---
 
 
-# Step 5 – Install or Access Zabbix Server
+# Step 5 – Install  Zabbix Server
 
 You can install **Zabbix Server** in different ways:
 
--   Install directly from the **Zabbix website**
 -   Install on **Linux / Ubuntu**
 -   Use a **prebuilt appliance**
 
