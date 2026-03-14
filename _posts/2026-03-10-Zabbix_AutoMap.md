@@ -1,6 +1,6 @@
 ---
 title: Zabbix AutoMap
-date: 2026-02-17 04:00:00 +0000
+date: 2026-03-10 04:00:00 +0000
 categories: [Zabbix]
 tags: [Zabbix, CCNA, Automation, AutoMap]
 ---
@@ -111,7 +111,7 @@ You can install **Zabbix Server** in different ways:
 
 ---
 
-## Default Creentials
+## Default Credentials
 
 ### System Login
 
