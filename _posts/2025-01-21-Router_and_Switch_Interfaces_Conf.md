@@ -260,6 +260,7 @@ show interfaces g0/1
 
 
 ## 🧠 Summary: Golden Rules
+
 | Best Practice                      | Why It Matters               |
 | ---------------------------------- | ---------------------------- |
 | Disable unused switch ports        | Prevent unauthorized access  |
