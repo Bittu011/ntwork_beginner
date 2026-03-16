@@ -151,18 +151,6 @@ Quick revision notes for learners & interview prep 🚀
 ---
 
 ## 🔹 Ethernet Frame Structure  
-| Field | Size | Purpose |  
-|-------|------|----------|  
-| **Preamble** | 7 bytes | Sync, alternating 1s/0s |  
-| **SFD** | 1 byte | Marks start (`10101011`) |  
-| **Destination MAC** | 6 bytes | Receiver’s MAC |  
-| **Source MAC** | 6 bytes | Sender’s MAC |  
-| **Type/Length** | 2 bytes | EtherType (IPv4=0x0800, IPv6=0x86DD) OR length |  
-| **Payload** | 46–1500 bytes | Encapsulated data |  
-| **FCS** | 4 bytes | CRC error checking |  
-
-
-## Ethernet Frame Structure
 
 | Field | Size | Purpose |
 |------|------|---------|
