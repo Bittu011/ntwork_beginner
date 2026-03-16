@@ -83,7 +83,7 @@ That’s where **ARP (Address Resolution Protocol)** comes in.
 
  🔹 Broadcast MAC address → FF:FF:FF:FF:FF:FF
 
- ## 6️⃣ Ping: The Connectivity Test
+## 6️⃣ Ping: The Connectivity Test
 
  ```ping``` is the simplest and most powerful connectivity tool.
 
@@ -120,7 +120,7 @@ A **broadcast domain** is the set of devices that receive broadcast frames.
 
 - **Ethernet frames** are the fundamental units of LAN communication.
 
-- **MAC learning + forwarding**allows efficient traffic flow.
+- **MAC learning + forwarding** allows efficient traffic flow.
 
 - **ARP bridges IP and MAC** for host-to-host communication.
 
@@ -160,6 +160,19 @@ Quick revision notes for learners & interview prep 🚀
 | **Type/Length** | 2 bytes | EtherType (IPv4=0x0800, IPv6=0x86DD) OR length |  
 | **Payload** | 46–1500 bytes | Encapsulated data |  
 | **FCS** | 4 bytes | CRC error checking |  
+
+
+## Ethernet Frame Structure
+
+| Field | Size | Purpose |
+|------|------|---------|
+| **Preamble** | 7 bytes | Sync, alternating 1s/0s |
+| **SFD** | 1 byte | Marks start (`10101011`) |
+| **Destination MAC** | 6 bytes | Receiver's MAC |
+| **Source MAC** | 6 bytes | Sender's MAC |
+| **Type/Length** | 2 bytes | EtherType (IPv4 = `0x0800`, IPv6 = `0x86DD`) or length |
+| **Payload** | 46–1500 bytes | Encapsulated data |
+| **FCS** | 4 bytes | CRC error checking |
 
 
 ```bash
