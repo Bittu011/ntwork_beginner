@@ -201,6 +201,7 @@ show interfaces g0/1
 
 
 **Key Error Types:**
+
 | Error Type      | Meaning                                                  |
 | --------------- | -------------------------------------------------------- |
 | Runts           | Frames < 64 bytes — often caused by collisions           |
