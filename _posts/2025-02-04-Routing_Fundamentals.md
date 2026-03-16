@@ -86,6 +86,7 @@ show ip route
 - Most specific match wins (longest prefix length).
 
 ### Example:
+
 | Prefix | Specificity                    |
 | ------ | ------------------------------ |
 | /32    | Most specific (single host)    |
@@ -109,6 +110,7 @@ When routers need to reach networks that aren't directly connected, routes can b
 - Manually configured (Static Routing)
 
 ### Static Route Command:
+
 ```bash
 ip route <destination-network> <netmask> {next-hop | exit-interface | exit-interface next-hop}
 ```
