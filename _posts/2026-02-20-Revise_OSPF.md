@@ -224,6 +224,7 @@ Instead of everyone talking:
 ---
 
 ## 📌 Example
+
 | Router | Priority | RID |
 |--------|--------|-----|
 | R1 | 1 | 1.1.1.1 |
